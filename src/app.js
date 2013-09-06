@@ -1,5 +1,5 @@
-var sample = {};
+var App = App || {};
 
-sample.add = function(x, y) {
-  return x + y;
+App.awesome = function() {
+  return true;
 };
