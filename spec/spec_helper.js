@@ -1,4 +1,4 @@
 var when = function(description, callback) {
-  describe(description.concat('when '), callback);
+  describe('when '.concat(description), callback);
 };
 
