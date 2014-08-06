@@ -1,6 +1,9 @@
 var App = App || {};
 
-App.awesome = function() {
-  return true;
+App.makeAwesome = function() {
+  $('#awesome').text("Awesome App is Awesome");
 };
 
+App.awesome = function() {
+  return $('#awesome').text() === "Awesome App is Awesome";
+};
