@@ -1,5 +1,3 @@
-jasmine.getFixtures().fixturesPath = 'spec/fixtures';
-
 var when = function(description, callback) {
   describe('when '.concat(description), callback);
 };

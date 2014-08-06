@@ -1,7 +1,7 @@
 describe("Application", function() {
 
   beforeEach(function() {
-    loadFixtures('app.html');
+    setFixtures('<div id="awesome"></div>');
   });
 
   when("made awesome", function() {
